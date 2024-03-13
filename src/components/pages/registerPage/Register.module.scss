@@ -1,0 +1,39 @@
+.RegisterPage {
+	.Elements_Parent {
+		max-width: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 140px;
+		.Elements {
+			h1 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 50px;
+			}
+			width: 380px;
+			height: 500px;
+			border: 1px solid black;
+			border-radius: 10px;
+
+			.elements_input {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin-top: 65px;
+				gap: 15px;
+			}
+
+			.elements_button {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				margin-top: 25px;
+				gap: 40px;
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.UserPage {
+	.main_elements {
+		margin-top: 50px;
+		.element_inputs {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+		}
+
+		.element_buttons {
+			display: flex;
+			justify-content: flex-end;
+			align-items: end;
+			gap: 20px;
+		}
+	}
+
+	.Main_rendering {
+		display: flex;
+		gap: 30px;
+		flex-wrap: wrap;
+		margin-top: 50px;
+		.element_render {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 370px;
+			height: 550px;
+			border: 1px solid black;
+			border-radius: 5px;
+			box-shadow: 0 0 10px black;
+
+			.rendering {
+				img {
+					width: 100%;
+					max-width: 250px;
+					height: auto;
+					border-radius: 10px;
+				}
+
+				.element_texts {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+				}
+			}
+
+			.btn {
+				margin-top: 20px;
+			}
+		}
+	}
+}
